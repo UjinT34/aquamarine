@@ -51,6 +51,7 @@ namespace Aquamarine {
             AQ_OUTPUT_STATE_BUFFER             = (1 << 7),
             AQ_OUTPUT_STATE_EXPLICIT_IN_FENCE  = (1 << 8),
             AQ_OUTPUT_STATE_EXPLICIT_OUT_FENCE = (1 << 9),
+            AQ_OUTPUT_STATE_CURSOR             = (1 << 10),
         };
 
         struct SInternalState {
